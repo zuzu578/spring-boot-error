@@ -1,2 +1,5 @@
 # spring-boot-error
-스프링 부트 환경 구성시 나는 오류 모음 
+# Spring Boot's No session repository could be auto-configured, check your configuration
+application.properties 파일에 
+spring.session.store-type=none 추가 
+
